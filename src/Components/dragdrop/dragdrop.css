@@ -1,0 +1,8 @@
+.drop{
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.name{
+  height: 10px;
+}
