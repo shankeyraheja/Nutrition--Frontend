@@ -10,7 +10,7 @@ class Searchbar extends React.Component{
   render(){
     return (
       <div >
-        <input className="Search" type="text" placeholder="Search for your favourite food" onChange={this.props.OnSearch}/>
+        <input className="Search" type="text" placeholder="Search for your favourite food and press enter" onKeyPress={this.props.OnSearch}/>
       </div>
 
     )

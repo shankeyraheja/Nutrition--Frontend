@@ -1,16 +1,16 @@
 .ba {
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
 }
 
 .bt {
     border-top-style: solid;
-    border-top-width: 1px;
+    border-top-width: 0px;
 }
 
 .bb {
     border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-width: 0px;
 }
 
 .b--black {
@@ -31,6 +31,7 @@
 
 .baskerville {
     font-family: baskerville, serif;
+    color: #606263;
 }
 
 .i {
@@ -51,6 +52,8 @@
 
 .tracked {
     letter-spacing: .1em;
+    color:#606263;
+    
 }
 
 .link {
@@ -190,6 +193,11 @@
   padding-right: 20px;
   height: 10px;
 
+}
+.avenir{
+  background-color: #f2f4f7;
+  border-color: #f2f4f7;
+  color: #606263;
 }
 
 @media screen and (min-width: 60em) {

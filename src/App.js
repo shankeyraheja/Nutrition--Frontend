@@ -1,25 +1,25 @@
 import React from "react";
 import './App.css';
-import Container from "./Components/Container/container"
+import Containers from "./Components/Container/container"
+import Container from "react-bootstrap/Container"
 import Navbar from "./Components/Navbar/Navbar"
-import Searchbar from "./Components/Searchbar/Searchbar"
 class App extends React.Component {
   constructor(){
   super()
   this.state = {
-    search:""
+    search:"",
+    array: []
     }
   }
-  OnSearch = (event) => {
-    this.setState({search:event.target.value})
-  }
+
+
   render(){
     return (
-      <div>
+      <div className="Box">
+
       <Navbar/>
-      <Searchbar OnSearch = {this.OnSearch}/>
       <div className="App-header">
-        <Container/>
+        <Containers search/>
       </div>
       </div>
 
